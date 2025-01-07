@@ -21,14 +21,14 @@ $dbname = "biblioSchool";
 
 
 class Connexion{
-    private $host = "localhost" ; 
+    private $hostname = "localhost" ; 
     private $username = "root" ;   
     private $password = "" ;      
     private $dbname = "biblioSchool" ; 
     private $connexion;
 
     public function __construct($host, $username, $password, $dbname, $connnexion){
-        $this->host = $host ;
+        $this->hostname = $host ;
         $this->username = $username ;
         $this->password = $password ;
         $this->dbname = $dbname ;
@@ -37,7 +37,7 @@ class Connexion{
     public function connect(){
         $this->connexion = null;
         try {
-            $this->connexion= new PDO('mysql:host='. $this->host . ';dbname='.$this->dbname 
+            $this->connexion= new PDO('mysql:host='. $this->hostname . ';dbname='.$this->dbname 
              , $this->username, $this->password);
             
             

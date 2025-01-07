@@ -47,12 +47,7 @@
     public function setDateFin($dateFin) {
         $this->dateFin = $dateFin;
     }
-
-
-
-    public function 
-
-
+    
  }
 
 

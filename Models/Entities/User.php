@@ -59,6 +59,17 @@ require_once "../../_cnx/connexion.php";
    public function logOut(){
 
    }
-   
+   public function creerLivre (){
+
+   }
+   public function modifierLivre(){
+
+   }
+   public function deletLivre(){
+
+   }
+   public function ajouterLivre(){
+
+   }
 }
 ?>

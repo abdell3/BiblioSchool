@@ -17,14 +17,14 @@
 $host = "localhost"; 
 $username = "root";   
 $password = "";      
-$dbname = "biblioSchool";  
+$dbname = "biblioschool";  
 
 
 class Connexion{
     private $hostname = "localhost" ; 
     private $username = "root" ;   
     private $password = "" ;      
-    private $dbname = "biblioSchool" ; 
+    private $dbname = "biblioschool" ; 
     private $connexion;
 
     public function __construct($host, $username, $password, $dbname, $connnexion){

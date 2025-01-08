@@ -1,6 +1,6 @@
 <?php
 require_once "User.php";
-require_once "../../_cnx/connexion.php";
+require_once("..\_cnx\connexion.php");
 
 class Apprenant extends User
 {
